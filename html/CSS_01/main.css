@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(49, 49, 49, 0.9);
+  color: white;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: dashed;
+  border-color: lime;
+}
+td,
+th {
+  border: 1px dashed lime;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+  color: black;
+}
+table {
+  width: 50%;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.col {
+  width: 50%;
+  margin: auto;
+}
+#avatar {
+  vertical-align: middle;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+footer {
+  padding-top: 1rem;
+}
+
+a:visited,
+a:focus,
+a {
+  text-decoration: none;
+  color: white;
+}

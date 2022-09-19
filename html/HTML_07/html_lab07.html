@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="author" content="Diogo" />
+    <title>HTM LAB_07</title>
+  </head>
+  <style>
+    footer {
+      background-size: cover;
+      background-image: url('data:image/jpeg;base64,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');
+    }
+  </style>
+  <body> 
+    <header>
+    <h1 style="text-align: center;">Curriculum Vitae</h1>    
+    <hr/>
+    <h3><a href="resume.html">Resumo</a></h3>
+    <hr />
+    <h2 id="ind">Indíce:</h2>
+    <nav>
+    <ul>
+      <li><a href="#dados">Dados Pesssoais</a></li>
+      <li><a href="#edu">Educação</a></li>
+      <li><a href="#comp">Competências e Interesses</a></li>
+    </ul>
+    <hr />
+    </nav>
+    <header>
+    <div class="row">
+    <article class="col1">
+    <h1><span>Diogo José </span><span id="apelido" style="color: blue;">Queirós Alves:</span></h1>
+    <h2>Software Developer</h2>
+    <ul id="dados">
+      <li><strong>Email Institucional:</strong><em><a href="mailto: a041050@ismai.pt"> a041050@ismai.pt</a></em></li>
+      <li><strong>Localização:</strong> Porto, Portugal</li>
+      <li><strong>Github:</strong><em><a href="https://github.com/Diogojqalves"> https://github.com/Diogojqalves</a></em></li>
+    </ul>
+  </article>
+  <figure class="col2">
+    <img id="avatar" src="https://www.w3schools.com/howto/img_avatar.png"/>
+  </figure>
+</div>
+    <hr />
+    <h2 id="edu">Educação:</h2>
+    <p>
+        <strong><em>ISMAI - Instituto Universitário da Maia</em></strong><br />Licenciatura <strong>Informática</strong> | 2021 - 2024
+      </p>
+    <h3>Notas<sup>1</sup>:</h3>
+    <ul>
+      <ol>
+        <li><strong>Arquitetura de Computadores:</strong> 17;</li>
+        <li><strong>Complementos de Matemática:</strong> 17;</li>
+        <li><strong>Introdução à Programação:</strong> 16;</li>
+        <li><strong>Matemática Discreta:</strong> 13;</li>
+        <li>
+          <strong>Organização e Gestão de Empresas:</strong> 18;
+        </li>
+        <li><strong>Produção de Conteúdos Multimédia:</strong>
+           20;
+        </li>
+        <li><strong>Sistemas de Informação:</strong> 16;</li>
+      </ol>
+    </ul
+    >
+    <hr />
+    <h2 id="comp">Competências e Interesses:</h2>
+    <figure>
+    <table>
+        <tbody>
+            <tr>
+                <th>Tecnologias:</th>
+                <th>Linguagens:</th>
+                <th>Interesses:</th>
+              </tr>
+              <tr>
+                <td>Python</td>
+                <td>Português</td>
+                <td>TI</td>
+              </tr>
+              <tr>
+                <td>Javascript</td>
+                <td>Inglês</td>
+                <td>Cinema</td>
+              </tr>
+              <tr>
+                <td>React</td>
+                <td>Espanhol</td>
+                <td>Surf</td>
+              </tr>
+              <tr>
+                <td>HTML & CSS</td>
+                <td>Francês</td>
+                <td>Gastronomia</td>
+              </tr>
+              <tr>
+                <td>Node</td>
+                <td>Alemão</td>
+                <td>Música</td>
+              </tr>
+        </tbody>
+            </table>
+          </figure>
+            <hr>
+            <figure>
+              <img src="https://www.ismai.pt/SiteCollectionImages/logo_ismai_site_logo_ismai_small.png"/>
+            </figure>
+            <hr>
+            <h2><a href="#ind">Voltar ao Topo</a></h3>
+            <hr style="margin-bottom: 0;">
+            <footer><sup>Tecnologias da Internet - 2022</sup></footer>
+  </body>
+</html>

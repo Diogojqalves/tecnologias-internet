@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Diogo" />
+    <link rel="stylesheet" href="resume.css" />
+    <title>HTML & XML</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Resumo</h1>
+    <hr />
+    <h3><a href="html_lab07.html">Curriculum Vitae</a></h3>
+    <hr />
+    <blockquote cite="https://pt.wikipedia.org/wiki/HTML">
+      <h2>HTML</h1>
+      <p>HyperText Markup Language - <a href="HTML.pdf" download target="_blank">Download Fonte</a></p>
+      <dl>
+        <dd>
+           HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
+          <br /> Documentos HTML podem ser interpretados por navegadores.<br/>
+          Todos os documentos HTML possuem marcadores, palavras entre parênteses
+          <br />
+           angulares que são os comandos de formatação da linguagem.<br />
+           <br/>
+        </dd>
+        <dd>
+           Tim Berners-Lee (físico britânico) criou o HTML original (e outros <br />
+           protocolos associados como o HTTP), numa estação NeXTcube, usando o<br /> 
+           ambiente de desenvolvimento NeXTSTEP. Na época, a linguagem não era uma <br />
+           especificação, mas uma coleção de ferramentas para resolver um problema <br />
+           de Tim: a comunicação e disseminação das pesquisas entre ele e o seu <br />
+           grupo de colegas. A sua solução, combinada com a então emergente internet <br />
+           pública (que tornar-se-ia a Internet), ganhou atenção mundial.
+
+        </dd>
+      </dl>
+    </blockquote>
+    <hr/>
+    <blockquote cite="https://pt.wikipedia.org/wiki/XML">
+        <h2>XML</h1>
+        <p>Extensible Markup Language</p>
+        <dl>
+          <dd>
+            XML (Extensible Markup Language) é uma recomendação da W3C para gerar
+            <br />linguagens de marcação para necessidades especiais. Entre linguagens baseadas em
+            <br />
+            XML incluem-se XHTML (formato para páginas Web), RDF, SDMX, SMIL, MathML 
+            <br />
+            (formato para expressões matemáticas), NCL, XBRL, XSIL e SVG (formato gráfico vetorial). 
+            <br/>
+            A principal característica do XML, de criar uma infraestrutura única para diversas linguagens, 
+            <br/>
+            é que linguagens desconhecidas e de pouco uso também podem ser definidas sem maior trabalho 
+            <br/>e sem necessidade de serem submetidas aos comitês de padronização.
+          </dd>
+        </dl>
+      </blockquote>
+      <hr/>
+      <H2>Formulário de Contacto</H2>
+      <div class="formColumn">
+        <form>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control formData"
+              placeholder="Nome"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control formData"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-control formData"
+              placeholder="Telemóvel"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control formData"
+              placeholder="Empresa"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control formData"
+              placeholder="País"
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              type="text"
+              cols="30"
+              rows="9"
+              class="form-control formDescription"
+              placeholder="Mensagem"
+            ></textarea>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label"
+              >Aceito os termos e condições da
+              <a class="termsLink" href=""> Política de Privacidade</a>
+            </label>
+          </div>
+          <br />
+          <input
+            id="submitBtn"
+            type="submit"
+            text="Submit"
+            value="Enviar"
+          />
+        </form>
+      </div>
+    <hr />
+  </body>
+</html>

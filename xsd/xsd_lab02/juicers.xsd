@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.juicers.org"
+xmlns:tns="http://www.juicers.org"
+elementFormDefault="qualified">
+
+<element name="juicers">
+     <complexType>
+        <sequence>
+            <element name="juicer" maxOccurs="unbounded"> 
+                <complexType>
+                    <sequence>
+                        <element name="name" type="string" />
+                        <element name="image" type="string" />
+                        <element name="description" type="string" />
+                        <element name="warranty" type="string"  minOccurs="0"/>
+                        <element name="weight" type="string"  minOccurs="0" />
+                        <element name="cost" type="string"  maxOccurs="unbounded"/>
+                        <element name="retailer" type="string" />
+                    </sequence>
+                </complexType>
+            </element>
+        </sequence>
+    </complexType>
+ </element>
+</schema>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bottles>
+	<bottle>
+	    <brand>Cristaline</brand>
+	    <type>Water</type>
+	    <size>150 cl</size>
+	    <char>
+	        <nutrients>
+	            <positive>71 mg of positive calcium ions perliter</positive>
+                    <positive>5.5 mg of positive magnesium ions</positive>
+	            <negative>chlorides at 20 mg per liter</negative>
+	            <negative>nitrates at 1 mg per liter</negative>
+	        </nutrients>
+	        <ph>7.45</ph> 
+	    </char>
+	    <origin>
+	            <region>St-Cyr la Source</region>
+	            <country>Loiret</country>
+	    </origin>
+	    <barcode>3274080005003</barcode>
+		<warning>As the bottle is dirty, some other material like iron is suspended in it.</warning>
+	</bottle>
+	<bottle>
+	    <brand>Cristaline</brand>
+	    <type>Water</type>
+	    <size>50 cl</size>
+	    <char>
+	        <nutrients>
+	            <positive>calcium ions is 98 mg/l</positive>
+                <positive>magnesiumions is 4 mg/l</positive>
+	            <negative>3.6 mg/l of chloride ions</negative>
+	            <negative>and 2 mg/l of nitrates</negative>
+	        </nutrients>
+	        <ph>7.4</ph> 
+	    </char>
+	    <origin>
+	            <region>Aurèle</region>
+	            <country>Alpes Maritimes</country>
+	    </origin>
+	    <barcode>3268840001008.</barcode>
+	</bottle>
+	<bottle>
+	    <brand>Volvic</brand>
+	    <type>Water</type>
+	    <size>50 cl</size>
+	    <char>
+	        <nutrients>
+	            <positive>11.5 mg/l of calcium ions</positive>
+                <positive>8.0 mg/l of magnesium ions</positive>
+	            <negative>13.5 mg/l of chloride ions</negative>
+	            <negative>6.3 mg/l of nitrate ions</negative>
+	        </nutrients>
+	        <ph>7</ph> 
+	    </char>
+	    <origin>
+	            <region>Volvic</region>
+	            <country>Puy-de-Dôme</country>
+	    </origin>
+	    <barcode>3057640117008.</barcode>
+		<warning>contains silica particles</warning>
+	</bottle>
+</bottles>

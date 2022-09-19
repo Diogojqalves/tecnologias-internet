@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sala>
+	<professor>
+	    <nome>x</nome>
+	    <material>
+	        <computador>lorem</computador>
+	        <mesa>lorem</mesa>
+	        <cadeira>lorem</cadeira>
+	        <projetor>lorem</projetor>
+	    </material>
+	</professor>
+	<estudante>
+	        <nome>x</nome>
+	        <computador>lorem</computador>
+	        <mesa>lorem</mesa>
+	        <cadeira>lorem</cadeira>
+	</estudante>
+</sala>

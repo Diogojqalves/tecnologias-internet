@@ -1,0 +1,15 @@
+Bottles:
+	Bootle:
+	    brand:
+	    type:
+	    size:
+	    characteristics
+	        nutrients:
+	            positive ions:
+	            negative ions:
+		    ph value:
+	    origin:
+	            fountain:
+	            region:
+	    barcode:
+		ps:
